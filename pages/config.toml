@@ -11,6 +11,7 @@ logoText = "uuidgen.dev"
 
 [params.twitter]
 creator = "Cole_MacKenzie"
+site = "https://cmackenzie1.github.io"
 
 [languages]
   [languages.en]
