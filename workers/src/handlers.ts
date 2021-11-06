@@ -39,11 +39,8 @@ export const handleBulkUUID = (request: RouterRequest) => {
   return prepareResponse(accept, uuids);
 };
 
-export const handleNotFound = () => {
-  return new Response(null, {
-    status: StatusCodes.NOT_FOUND,
-    statusText: getReasonPhrase(StatusCodes.NOT_FOUND),
-  });
+export const handleAll = (request: Request) => {
+  return fetch(request);
 };
 
 export const handleHead = () => {
