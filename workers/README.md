@@ -16,7 +16,7 @@ curl https://uuidgen.dev/bulk?limit=5
 curl https://uuidgen.dev/bulk?limit=5 -H 'Accept: application/json'`
 ```
 
-NOTE: You can request up to `1000` UUID's in each bulk request.
+NOTE: You may request up to `1000` UUID's in each bulk request.
 
 ## Deployment
 
