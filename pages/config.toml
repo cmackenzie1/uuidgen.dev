@@ -1,4 +1,4 @@
-baseURL = 'https://www.uuidgen.dev/'
+baseURL = 'https://uuidgen.dev/'
 languageCode = 'en-us'
 title = 'uuidgen.dev'
 theme = 'terminal'
