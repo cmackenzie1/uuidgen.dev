@@ -11,15 +11,15 @@ showFullContent = true
 readingTime = false
 +++
 
-# ✨ Introduction ✨
+## ✨ Introduction ✨
 
 As a proof-of-concept, and to show how incredibly fast ⚡ (and easy) it is to deploy a service WORLDWIDE 🌎 using [Cloudflare Workers](https://workers.cloudflare.com/), I created `uuidgen.dev`!
 
 `uuidgen.dev` is self-proclaiming itself as its very own UUID-as-a-Service offering, because, y'know, why not?
 
-## Getting Started
+### Getting Started
 
-### Bash
+#### Bash
 
 ```bash
 # just one UUID pls
@@ -35,7 +35,7 @@ cc740352-e3b4-48e5-8ddf-1d886a3c7dee
 f5f07070-f0f0-4227-adaa-b1d939aadf09
 ```
 
-### Python
+#### Python
 
 ```python
 >>> import requests
@@ -43,7 +43,7 @@ f5f07070-f0f0-4227-adaa-b1d939aadf09
 221636d2-0044-4f9e-a06b-138ff00ec487
 ```
 
-### Javascript (`fetch`)
+#### Javascript (`fetch`)
 
 ```js
 // async/await
@@ -61,7 +61,7 @@ You get the idea...
 
 Enjoy :)
 
-# Learn More
+## Learn More
 
 `uuidgen.dev` is 100% open-source at available on GitHub at [cmackenzie1/uuidgen.dev](https://github.com/cmackenzie1/uuidgen.dev)
 
