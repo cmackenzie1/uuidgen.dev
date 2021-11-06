@@ -8,6 +8,7 @@ title = "uuidgen.dev"
 centerTheme = true
 contentTypeName = "posts"
 logoText = "uuidgen.dev"
+showLastUpdated = true
 
 [params.twitter]
 creator = "Cole_MacKenzie"
