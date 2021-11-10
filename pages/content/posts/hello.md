@@ -15,7 +15,7 @@ readingTime = false
 
 As a proof-of-concept, and to show how incredibly fast ⚡ (and easy) it is to deploy a service WORLDWIDE 🌎 using [Cloudflare Workers](https://workers.cloudflare.com/), I created `uuidgen.dev`!
 
-`uuidgen.dev` is self-proclaiming itself as its very own UUID-as-a-Service offering, because, y'know, why not?
+`uuidgen.dev` is self-proclaimed as its very own UUID-as-a-Service offering, because, y'know, why not?
 
 ### Getting Started
 
