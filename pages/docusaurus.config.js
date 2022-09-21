@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "uuidgen.dev",
   tagline: "UUIDs-as-a-service! (version 4)",
-  url: "https://www.uuidgen.com",
+  url: "https://www.uuidgen.dev",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
