@@ -1,3 +1,7 @@
+---
+description: Generate UUIDs in JavaScript/TypeScript using fetch.
+---
+
 # JavaScript / TypeScript
 
 ## [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)

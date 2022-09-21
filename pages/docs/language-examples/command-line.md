@@ -1,3 +1,7 @@
+---
+description: Generate UUIDs using the command line with popular tools like curl and wget.
+---
+
 # Command Line
 
 ## curl
