@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://wwww.uuidgen.dev/sitemap.xml
+Sitemap: https://www.uuidgen.dev/sitemap.xml
