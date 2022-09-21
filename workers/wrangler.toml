@@ -1,38 +1,7 @@
-name = "uuidgen-dev-development"
-compatibility_date = "2021-11-05"
-type = "javascript"
-workers_dev = true
-
-[build]
-command = "yarn install && yarn build"
-
-[build.upload]
-# The "modules" upload format is required for all projects that export a Durable Objects class
-format = "modules"
-main = "./index.mjs"
-
-[durable_objects]
-bindings = [
-  { name = "DURABLE_COUNTER", class_name = "DurableCounter" } # Binding to our DurableObjectExample class
-]
-
-[[migrations]]
-tag = "v1" # Should be unique for each entry
-new_classes = ["DurableCounter"] # Array of new classes
-
-
-## PRODUCTION
-
-[env.production]
 name = "uuidgen-dev-production"
-workers_dev = false
-zone_id = "6224548efd4ca921571ca105ccdead61"
-route = "uuidgen.dev/*"
-[env.production.durable_objects]
-bindings = [
-  { name = "DURABLE_COUNTER", class_name = "DurableCounter" } # Binding to our DurableObjectExample class
+main = "src/index.ts"
+compatibility_date = "2022-09-20"
+account_id = "f5686db3c4f5b3e38b8f15b0561a28a8"
+routes = [
+    { pattern = "uuidgen.dev", custom_domain = true }
 ]
-
-[[env.production.migrations]]
-tag = "v1" # Should be unique for each entry
-new_classes = ["DurableCounter"] # Array of new classes
