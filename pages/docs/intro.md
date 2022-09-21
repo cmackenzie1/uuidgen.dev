@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: Getting started is as easy as running curl https://uuidgen.dev!
 ---
 
 # API
@@ -15,8 +16,11 @@ Generate a single UUID using `curl` on the command line.
 curl https://uuidgen.dev
 ```
 
-Or generate up to 1,000 at once with the bulk endpoint `/bulk?limit=5`
+Or generate up to 1,000 at once with the bulk endpoint `/bulk`. It accepts a multiple different query parameters for the
+number of UUIDs to generate.
 
 ```bash
+curl https://uuidgen.dev/bulk?n=5
 curl https://uuidgen.dev/bulk?limit=5
+curl https://uuidgen.dev/bulk?count=5
 ```

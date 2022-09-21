@@ -1,3 +1,7 @@
+---
+description: Generate UUIDs in Python using the popular requests or urllib3 libraries.
+---
+
 # Python
 
 ## [requests](https://requests.readthedocs.io/en/latest/)
