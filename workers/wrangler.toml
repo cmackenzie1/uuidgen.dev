@@ -1,6 +1,6 @@
 name = "uuidgen-dev-production"
 main = "src/index.ts"
-compatibility_date = "2022-09-20"
+compatibility_date = "2022-09-22"
 account_id = "f5686db3c4f5b3e38b8f15b0561a28a8"
 routes = [
     { pattern = "uuidgen.dev", custom_domain = true }

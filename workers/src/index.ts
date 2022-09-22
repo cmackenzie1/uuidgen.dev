@@ -1,6 +1,6 @@
 import { Router } from 'itty-router';
 import { CORS_HEADERS } from './constants';
-import { AnalyticsEngine, AppEnv } from './types/env';
+import { AppEnv } from './types/env';
 import { ErrorObject, serializeError } from 'serialize-error';
 
 const router = Router();
@@ -34,6 +34,8 @@ router.get('/bulk', (request: Request, env: AppEnv) => {
       '1',
     10,
   );
+  if (count < 0)
+    return new Response('You must provide a positive value', { status: 400 });
   const data = Array(count)
     .fill(0)
     .map(() => crypto.randomUUID());
@@ -65,7 +67,7 @@ router.all('*', (request: Request, env: AppEnv) => {
 export default {
   async fetch(request: Request, env: AppEnv, ctx: ExecutionContext) {
     try {
-      const resp = router.handle(request, env, ctx);
+      const resp = await router.handle(request, env, ctx);
       checkResponse(resp);
       logRequest(env, request, resp);
       return resp;
@@ -103,7 +105,7 @@ const logRequest = (
       cf?.longitude || '',
       headers.get('user-agent') || '',
     ],
-    doubles: [status || 200, cf?.clientTcpRtt || 0],
+    doubles: [status, cf?.clientTcpRtt || 0],
   });
   if (err)
     env.logs.writeDataPoint({
