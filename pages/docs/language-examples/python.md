@@ -6,6 +6,10 @@ description: Generate UUIDs in Python using the popular requests or urllib3 libr
 
 ## [requests](https://requests.readthedocs.io/en/latest/)
 
+```bash
+pip install requests
+```
+
 ```python
 import requests
 
@@ -14,6 +18,10 @@ print(uuid)
 ```
 
 ## [urllib3](https://urllib3.readthedocs.io/en/stable/)
+
+```bash
+pip install urllib3
+```
 
 ```python
 import urllib3

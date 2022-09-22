@@ -36,7 +36,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/cmackenzie/uuidgen.dev',
+          editUrl: 'https://github.com/cmackenzie1/uuidgen.dev',
         },
         blog: {
           showReadingTime: true,
@@ -99,7 +99,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/cmackenzie1/uuidgen.dev',
               },
             ],
           },

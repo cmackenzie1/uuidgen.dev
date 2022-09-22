@@ -103,7 +103,7 @@ const logRequest = (
       cf?.longitude || '',
       headers.get('user-agent') || '',
     ],
-    doubles: [status, cf?.clientTcpRtt || 0],
+    doubles: [status || 200, cf?.clientTcpRtt || 0],
   });
   if (err)
     env.logs.writeDataPoint({
