@@ -9,15 +9,15 @@ description: Generate UUIDs in JavaScript/TypeScript using fetch.
 ### Async/Await
 
 ```typescript
-const resp = await fetch("https://uuidgen.dev/");
+const resp = await fetch('https://uuidgen.dev/');
 console.log(await resp.text());
 ```
 
 ### Promises
 
 ```typescript
-fetch("https://uuidgen.dev")
-    .then((response) => response.text())
-    .then((result) => console.log(result))
-    .catch((error) => console.log("error", error));
+fetch('https://uuidgen.dev')
+  .then((response) => response.text())
+  .then((result) => console.log(result))
+  .catch((error) => console.log('error', error));
 ```

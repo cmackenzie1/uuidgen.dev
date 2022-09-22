@@ -1,0 +1,13 @@
+{
+  "name": "uuidgen-dev",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "pages:start": "cd pages && npm start",
+    "format": "prettier --write '**/*.{js,ts,css,json,md}'"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  },
+  "dependencies": {}
+}

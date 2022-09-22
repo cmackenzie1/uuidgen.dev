@@ -22,4 +22,3 @@ http = urllib3.PoolManager()
 r = http.request('GET', 'https://uuidgen.dev/')
 print(r.data.decode('utf-8'))
 ```
-
