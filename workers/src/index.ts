@@ -88,7 +88,7 @@ const logRequest = (
   response: Response,
   err?: ErrorObject,
 ) => {
-  const { method, url, cf } = request;
+  const { method, url, cf, headers } = request;
   const { status, statusText } = response;
   env.requests.writeDataPoint({
     blobs: [
@@ -101,6 +101,7 @@ const logRequest = (
       cf?.city || '',
       cf?.latitude || '',
       cf?.longitude || '',
+      headers.get('user-agent') || '',
     ],
     doubles: [status, cf?.clientTcpRtt || 0],
   });
