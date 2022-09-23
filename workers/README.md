@@ -10,19 +10,10 @@ curl https://uuidgen.dev/
 
 # get N uuids
 curl https://uuidgen.dev/bulk?limit=5
-
-
-# get uuids as JSON
-curl https://uuidgen.dev/bulk?limit=5 -H 'Accept: application/json'`
 ```
-
-NOTE: You may request up to `1000` UUID's in each bulk request.
 
 ## Deployment
 
 ```bash
-wrangler publish
-
-# production
-wrangler publish --env productiong
+npm run deploy
 ```
