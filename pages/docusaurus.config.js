@@ -36,7 +36,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/cmackenzie1/uuidgen.dev',
+          editUrl: 'https://github.com/cmackenzie1/uuidgen.dev/blob/main/pages',
         },
         blog: {
           showReadingTime: true,
