@@ -2,7 +2,7 @@
 
 ## Pages
 
-The `pages/` directory contains the `hugo` content to generate the HTML site hosted on [Cloudflare Pages](https://pages.cloudflare.com/).
+The `pages/` directory contains the static content to generate the HTML site hosted on [Cloudflare Pages](https://pages.cloudflare.com/).
 
 ## Workers
 
