@@ -101,6 +101,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/cmackenzie1/uuidgen.dev',
               },
+              {
+                label: 'Status',
+                href: 'https://status.uuidgen.dev',
+              },
             ],
           },
           {
