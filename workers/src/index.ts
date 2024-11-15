@@ -28,14 +28,10 @@ router.head('/bulk', () => new Response());
 router.get('/bulk', (request: Request, env: AppEnv) => {
   const { searchParams } = new URL(request.url);
   const count: number = parseInt(
-    searchParams.get('n') ||
-      searchParams.get('limit') ||
-      searchParams.get('count') ||
-      '1',
+    searchParams.get('n') || searchParams.get('limit') || searchParams.get('count') || '1',
     10,
   );
-  if (count < 0)
-    return new Response('You must provide a positive value', { status: 400 });
+  if (count < 0) return new Response('You must provide a positive value', { status: 400 });
   const data = Array(count)
     .fill(0)
     .map(() => crypto.randomUUID());
@@ -84,12 +80,7 @@ const checkResponse = (resp: Response | undefined) => {
   if (resp === undefined) throw Error('UndefinedResponse');
 };
 
-const logRequest = (
-  env: AppEnv,
-  request: Request,
-  response: Response,
-  err?: ErrorObject,
-) => {
+const logRequest = (env: AppEnv, request: Request, response: Response, err?: ErrorObject) => {
   const { method, url, cf, headers } = request;
   const { status, statusText } = response;
   env.requests.writeDataPoint({
@@ -109,12 +100,6 @@ const logRequest = (
   });
   if (err)
     env.logs.writeDataPoint({
-      blobs: [
-        err?.name || 'unknown',
-        err?.message || '',
-        err?.code || '',
-        err?.stack || '',
-        JSON.stringify(err),
-      ],
+      blobs: [err?.name || 'unknown', err?.message || '', err?.code || '', err?.stack || '', JSON.stringify(err)],
     });
 };
