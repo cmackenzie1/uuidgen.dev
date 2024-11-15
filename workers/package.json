@@ -13,10 +13,7 @@
   "license": "MIT",
   "eslintConfig": {
     "root": true,
-    "extends": [
-      "typescript",
-      "prettier"
-    ]
+    "extends": ["typescript", "prettier"]
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^3.16.0",
