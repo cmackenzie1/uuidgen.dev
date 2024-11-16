@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import clsx from 'clsx';
 import CodeBlock from '@theme/CodeBlock';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
