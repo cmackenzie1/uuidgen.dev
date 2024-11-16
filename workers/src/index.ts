@@ -1,7 +1,7 @@
 import { Router } from 'itty-router';
 import { CORS_HEADERS } from './constants';
-import { AppEnv } from './types/env';
-import { ErrorObject, serializeError } from 'serialize-error';
+import type { AppEnv } from './types/env';
+import { type ErrorObject, serializeError } from 'serialize-error';
 
 const router = Router();
 
@@ -27,7 +27,7 @@ router.get('/', (request: Request, env: AppEnv) => {
 router.head('/bulk', () => new Response());
 router.get('/bulk', (request: Request, env: AppEnv) => {
   const { searchParams } = new URL(request.url);
-  const count: number = parseInt(
+  const count: number = Number.parseInt(
     searchParams.get('n') || searchParams.get('limit') || searchParams.get('count') || '1',
     10,
   );

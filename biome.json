@@ -1,6 +1,6 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
-  "files": { "ignore": ["node_modules", ".wrangler", "dist"] },
+  "files": { "ignore": ["node_modules", ".wrangler", "dist", ".next", ".worker-next"] },
   "formatter": {
     "enabled": true,
     "useEditorconfig": true,
@@ -10,8 +10,7 @@
     "lineEnding": "lf",
     "lineWidth": 120,
     "attributePosition": "auto",
-    "bracketSpacing": true,
-    "ignore": ["**/node_modules", "**/dist", "**/build", "**/.next", "**/.templates/", "pages/blog/public/"]
+    "bracketSpacing": true
   },
   "organizeImports": { "enabled": true },
   "linter": {
