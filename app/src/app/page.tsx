@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import UuidGenerator from '@/components/UuidGenerator';
 import { Container, Text, Box, Title, Stack, List, Space, ListItem } from '@mantine/core';
@@ -6,7 +7,7 @@ export default function Home() {
   return (
     <Box>
       <Header />
-      <Container size="md" mt="xl">
+      <Container size="md" mt="xl" mb={'xl'}>
         <Stack gap="xl">
           {/* Main content */}
           <Stack gap="md">
@@ -51,6 +52,7 @@ export default function Home() {
           </Stack>
         </Stack>
       </Container>
+      <Footer />
     </Box>
   );
 }
