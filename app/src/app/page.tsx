@@ -1,7 +1,7 @@
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import UuidGenerator from '@/components/UuidGenerator';
-import { Container, Text, Box, Title, Stack, List, Space, ListItem } from '@mantine/core';
+import { Box, Container, List, ListItem, Space, Stack, Text, Title } from '@mantine/core';
 
 export default function Home() {
   return (

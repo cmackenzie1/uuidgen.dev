@@ -6,7 +6,8 @@
   "scripts": {
     "pages:start": "cd pages && npm start",
     "format": "pnpm biome format --write .",
-    "lint": "pnpm biome lint --write ."
+    "lint": "pnpm biome lint --write .",
+    "check": "pnpm biome check --write ."
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4"

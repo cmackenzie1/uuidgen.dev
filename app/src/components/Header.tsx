@@ -1,4 +1,4 @@
-import { Group, Center, Title, Anchor } from '@mantine/core';
+import { Anchor, Center, Group, Title } from '@mantine/core';
 import Link from 'next/link';
 
 export default function Header() {

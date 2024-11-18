@@ -1,8 +1,8 @@
 import '@mantine/core/styles.css';
 import '@mantine/code-highlight/styles.css';
 
-import type { Metadata } from 'next';
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'uuidgen.dev',

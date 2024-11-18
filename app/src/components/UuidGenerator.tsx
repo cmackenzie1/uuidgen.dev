@@ -1,10 +1,10 @@
 'use client';
 
-import { Text, Stack, Group, NumberInput, Center, ScrollArea, NativeSelect, Fieldset } from '@mantine/core';
 import { CodeHighlight } from '@mantine/code-highlight';
+import { Center, Fieldset, Group, NativeSelect, NumberInput, ScrollArea, Stack, Text } from '@mantine/core';
+import { Button } from '@mantine/core';
 import { useForm } from '@mantine/form';
 import { useState } from 'react';
-import { Button } from '@mantine/core';
 import { v4 as uuidv4, v7 as uuidv7 } from 'uuid';
 
 export default function UuidGenerator() {
