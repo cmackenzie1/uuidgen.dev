@@ -31,6 +31,6 @@
     "postcss-preset-mantine": "^1.17.0",
     "postcss-simple-vars": "^7.0.1",
     "typescript": "^5",
-    "wrangler": "^3.87.0"
+    "wrangler": "^3.90.0"
   }
 }
