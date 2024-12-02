@@ -21,9 +21,9 @@
     "uuid": "^11.0.3"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20241112.0",
+    "@cloudflare/workers-types": "^4.20241127.0",
     "@opennextjs/cloudflare": "^0.2.1",
-    "@tabler/icons-react": "^3.22.0",
+    "@tabler/icons-react": "^3.23.0",
     "@types/node": "^22",
     "@types/react": "^18",
     "@types/react-dom": "^18",
@@ -31,6 +31,6 @@
     "postcss-preset-mantine": "^1.17.0",
     "postcss-simple-vars": "^7.0.1",
     "typescript": "^5",
-    "wrangler": "^3.90.0"
+    "wrangler": "^3.91.0"
   }
 }
