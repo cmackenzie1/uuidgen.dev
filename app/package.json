@@ -23,7 +23,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241205.0",
     "@opennextjs/cloudflare": "^0.2.1",
-    "@tabler/icons-react": "^3.24.0",
+    "@tabler/icons-react": "^3.26.0",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
@@ -31,6 +31,6 @@
     "postcss-preset-mantine": "^1.17.0",
     "postcss-simple-vars": "^7.0.1",
     "typescript": "^5",
-    "wrangler": "^3.93.0"
+    "wrangler": "^3.95.0"
   }
 }
