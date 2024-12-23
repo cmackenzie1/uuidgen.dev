@@ -11,10 +11,10 @@
     "deploy:worker": "npm run build:worker && wrangler deploy"
   },
   "dependencies": {
-    "@mantine/code-highlight": "^7.15.1",
-    "@mantine/core": "^7.15.1",
-    "@mantine/form": "^7.15.1",
-    "@mantine/hooks": "^7.15.1",
+    "@mantine/code-highlight": "^7.15.2",
+    "@mantine/core": "^7.15.2",
+    "@mantine/form": "^7.15.2",
+    "@mantine/hooks": "^7.15.2",
     "next": "15.1.2",
     "react": "^19",
     "react-dom": "^19",
