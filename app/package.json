@@ -21,9 +21,9 @@
     "uuid": "^11.0.4"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20241230.0",
-    "@opennextjs/cloudflare": "^0.3.3",
-    "@tabler/icons-react": "^3.26.0",
+    "@cloudflare/workers-types": "^4.20250109.0",
+    "@opennextjs/cloudflare": "^0.3.8",
+    "@tabler/icons-react": "^3.28.1",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
@@ -31,6 +31,6 @@
     "postcss-preset-mantine": "^1.17.0",
     "postcss-simple-vars": "^7.0.1",
     "typescript": "^5",
-    "wrangler": "^3.99.0"
+    "wrangler": "^3.101.0"
   }
 }
