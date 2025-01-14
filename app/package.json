@@ -11,14 +11,14 @@
     "deploy:worker": "npm run build:worker && wrangler deploy"
   },
   "dependencies": {
-    "@mantine/code-highlight": "^7.15.2",
-    "@mantine/core": "^7.15.2",
-    "@mantine/form": "^7.15.2",
-    "@mantine/hooks": "^7.15.2",
-    "next": "15.1.3",
+    "@mantine/code-highlight": "^7.16.0",
+    "@mantine/core": "^7.16.0",
+    "@mantine/form": "^7.16.0",
+    "@mantine/hooks": "^7.16.0",
+    "next": "15.1.4",
     "react": "^19",
     "react-dom": "^19",
-    "uuid": "^11.0.4"
+    "uuid": "^11.0.5"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250109.0",

@@ -15,20 +15,20 @@ importers:
   app:
     dependencies:
       '@mantine/code-highlight':
-        specifier: ^7.15.2
-        version: 7.15.2(@mantine/core@7.15.2(@mantine/hooks@7.15.2(react@19.0.0))(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@mantine/hooks@7.15.2(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: ^7.16.0
+        version: 7.16.0(@mantine/core@7.16.0(@mantine/hooks@7.16.0(react@19.0.0))(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@mantine/hooks@7.16.0(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@mantine/core':
-        specifier: ^7.15.2
-        version: 7.15.2(@mantine/hooks@7.15.2(react@19.0.0))(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: ^7.16.0
+        version: 7.16.0(@mantine/hooks@7.16.0(react@19.0.0))(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@mantine/form':
-        specifier: ^7.15.2
-        version: 7.15.2(react@19.0.0)
+        specifier: ^7.16.0
+        version: 7.16.0(react@19.0.0)
       '@mantine/hooks':
-        specifier: ^7.15.2
-        version: 7.15.2(react@19.0.0)
+        specifier: ^7.16.0
+        version: 7.16.0(react@19.0.0)
       next:
-        specifier: 15.1.3
-        version: 15.1.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: 15.1.4
+        version: 15.1.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react:
         specifier: ^19
         version: 19.0.0
@@ -36,8 +36,8 @@ importers:
         specifier: ^19
         version: 19.0.0(react@19.0.0)
       uuid:
-        specifier: ^11.0.4
-        version: 11.0.4
+        specifier: ^11.0.5
+        version: 11.0.5
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20250109.0
@@ -810,78 +810,78 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@mantine/code-highlight@7.15.2':
-    resolution: {integrity: sha512-vp4RLYtLQJ++W4TUVt5K78RAiwlqSTAM3N1yFdDjDF2d5sK3k7CEztYP2ahwroIuaMYgJy/iOIW7l5iMLBbl7w==}
+  '@mantine/code-highlight@7.16.0':
+    resolution: {integrity: sha512-cND4UC3Y+FIVy1nelA/UfkPebZendFtqyHamaEgqVL1V+R5xPTRUAy3iLu6w49FRH1eQHeUKKkLPpJK6OB+BTg==}
     peerDependencies:
-      '@mantine/core': 7.15.2
-      '@mantine/hooks': 7.15.2
+      '@mantine/core': 7.16.0
+      '@mantine/hooks': 7.16.0
       react: ^18.x || ^19.x
       react-dom: ^18.x || ^19.x
 
-  '@mantine/core@7.15.2':
-    resolution: {integrity: sha512-640ns0L/HZAXYjz3+FRffr8UNcH1fU7ENUVxKLzqNA311Dcx0qS3byVKTY/IVJYln6AkjoEfIJMiixT9fCZBiQ==}
+  '@mantine/core@7.16.0':
+    resolution: {integrity: sha512-lYYwa4Itz77uC8zQzdiKiKdz9Q01NBOYPZsotIKsP/Zqij0qhpsVxoJ8MK3P8IqFyLfThTMmR4sT1qlGfLTA9Q==}
     peerDependencies:
-      '@mantine/hooks': 7.15.2
+      '@mantine/hooks': 7.16.0
       react: ^18.x || ^19.x
       react-dom: ^18.x || ^19.x
 
-  '@mantine/form@7.15.2':
-    resolution: {integrity: sha512-ADXLw/e0/ddNIj9EtJb5aes2VEpoR7GIVgKnzFhq8DXMfOZqaMn4rSVY8LmVOAtcMyocPR7hk8uQQ3ihmpzFaw==}
+  '@mantine/form@7.16.0':
+    resolution: {integrity: sha512-PUxX5v8XMoNwjFdZbns4dDcQf8U9lIfagFsDGz3KKStgsuBcgnn97/MDP6SpsOHV3g7AGEJoF65+ax1fMOkkNA==}
     peerDependencies:
       react: ^18.x || ^19.x
 
-  '@mantine/hooks@7.15.2':
-    resolution: {integrity: sha512-p8dsW0fdJxzYhULbm1noFYRHuBvJHleYviC0BlwbkVySC8AsvFI8AmC3sMssWV3dQ3yQ/SidYo9U+K/czpDpZw==}
+  '@mantine/hooks@7.16.0':
+    resolution: {integrity: sha512-8KxrhckesbrV6tyOndm6fJ+jSKA4KX/67ppDFlfYMMbV6Yh+s0zRO4KLi2uCtl6tgckQd2/zDzX3kQk+VYKqDA==}
     peerDependencies:
       react: ^18.x || ^19.x
 
-  '@next/env@15.1.3':
-    resolution: {integrity: sha512-Q1tXwQCGWyA3ehMph3VO+E6xFPHDKdHFYosadt0F78EObYxPio0S09H9UGYznDe6Wc8eLKLG89GqcFJJDiK5xw==}
+  '@next/env@15.1.4':
+    resolution: {integrity: sha512-2fZ5YZjedi5AGaeoaC0B20zGntEHRhi2SdWcu61i48BllODcAmmtj8n7YarSPt4DaTsJaBFdxQAVEVzgmx2Zpw==}
 
-  '@next/swc-darwin-arm64@15.1.3':
-    resolution: {integrity: sha512-aZtmIh8jU89DZahXQt1La0f2EMPt/i7W+rG1sLtYJERsP7GRnNFghsciFpQcKHcGh4dUiyTB5C1X3Dde/Gw8gg==}
+  '@next/swc-darwin-arm64@15.1.4':
+    resolution: {integrity: sha512-wBEMBs+np+R5ozN1F8Y8d/Dycns2COhRnkxRc+rvnbXke5uZBHkUGFgWxfTXn5rx7OLijuUhyfB+gC/ap58dDw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@next/swc-darwin-x64@15.1.3':
-    resolution: {integrity: sha512-aw8901rjkVBK5mbq5oV32IqkJg+CQa6aULNlN8zyCWSsePzEG3kpDkAFkkTOh3eJ0p95KbkLyWBzslQKamXsLA==}
+  '@next/swc-darwin-x64@15.1.4':
+    resolution: {integrity: sha512-7sgf5rM7Z81V9w48F02Zz6DgEJulavC0jadab4ZsJ+K2sxMNK0/BtF8J8J3CxnsJN3DGcIdC260wEKssKTukUw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
 
-  '@next/swc-linux-arm64-gnu@15.1.3':
-    resolution: {integrity: sha512-YbdaYjyHa4fPK4GR4k2XgXV0p8vbU1SZh7vv6El4bl9N+ZSiMfbmqCuCuNU1Z4ebJMumafaz6UCC2zaJCsdzjw==}
+  '@next/swc-linux-arm64-gnu@15.1.4':
+    resolution: {integrity: sha512-JaZlIMNaJenfd55kjaLWMfok+vWBlcRxqnRoZrhFQrhM1uAehP3R0+Aoe+bZOogqlZvAz53nY/k3ZyuKDtT2zQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@next/swc-linux-arm64-musl@15.1.3':
-    resolution: {integrity: sha512-qgH/aRj2xcr4BouwKG3XdqNu33SDadqbkqB6KaZZkozar857upxKakbRllpqZgWl/NDeSCBYPmUAZPBHZpbA0w==}
+  '@next/swc-linux-arm64-musl@15.1.4':
+    resolution: {integrity: sha512-7EBBjNoyTO2ipMDgCiORpwwOf5tIueFntKjcN3NK+GAQD7OzFJe84p7a2eQUeWdpzZvhVXuAtIen8QcH71ZCOQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
 
-  '@next/swc-linux-x64-gnu@15.1.3':
-    resolution: {integrity: sha512-uzafnTFwZCPN499fNVnS2xFME8WLC9y7PLRs/yqz5lz1X/ySoxfaK2Hbz74zYUdEg+iDZPd8KlsWaw9HKkLEVw==}
+  '@next/swc-linux-x64-gnu@15.1.4':
+    resolution: {integrity: sha512-9TGEgOycqZFuADyFqwmK/9g6S0FYZ3tphR4ebcmCwhL8Y12FW8pIBKJvSwV+UBjMkokstGNH+9F8F031JZKpHw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@next/swc-linux-x64-musl@15.1.3':
-    resolution: {integrity: sha512-el6GUFi4SiDYnMTTlJJFMU+GHvw0UIFnffP1qhurrN1qJV3BqaSRUjkDUgVV44T6zpw1Lc6u+yn0puDKHs+Sbw==}
+  '@next/swc-linux-x64-musl@15.1.4':
+    resolution: {integrity: sha512-0578bLRVDJOh+LdIoKvgNDz77+Bd85c5JrFgnlbI1SM3WmEQvsjxTA8ATu9Z9FCiIS/AliVAW2DV/BDwpXbtiQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
-  '@next/swc-win32-arm64-msvc@15.1.3':
-    resolution: {integrity: sha512-6RxKjvnvVMM89giYGI1qye9ODsBQpHSHVo8vqA8xGhmRPZHDQUE4jcDbhBwK0GnFMqBnu+XMg3nYukNkmLOLWw==}
+  '@next/swc-win32-arm64-msvc@15.1.4':
+    resolution: {integrity: sha512-JgFCiV4libQavwII+kncMCl30st0JVxpPOtzWcAI2jtum4HjYaclobKhj+JsRu5tFqMtA5CJIa0MvYyuu9xjjQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
 
-  '@next/swc-win32-x64-msvc@15.1.3':
-    resolution: {integrity: sha512-VId/f5blObG7IodwC5Grf+aYP0O8Saz1/aeU3YcWqNdIUAmFQY3VEPKPaIzfv32F/clvanOb2K2BR5DtDs6XyQ==}
+  '@next/swc-win32-x64-msvc@15.1.4':
+    resolution: {integrity: sha512-xxsJy9wzq7FR5SqPCUqdgSXiNXrMuidgckBa8nH9HtjjxsilgcN6VgXF6tZ3uEWuVEadotQJI8/9EQ6guTC4Yw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -1025,6 +1025,10 @@ packages:
     resolution: {integrity: sha512-n3g2zZFgOWaz2ZYCy8+4wxSmq+HSTD8QKkRhFDv+nkxY1o7gzyp4PDz/+tOdcNPMPZ/A6Mt4aVECYNjQNiaHJw==}
     engines: {node: '>=18.0.0'}
 
+  '@smithy/middleware-retry@4.0.2':
+    resolution: {integrity: sha512-cJoyDPcpxu84QcFOCgh+ehDm+OjuOLHDQdkVYT898KIXDpEDrjQB3p40EeQNCsT5d36y10yoJe3f/aADoTBXSg==}
+    engines: {node: '>=18.0.0'}
+
   '@smithy/middleware-serde@4.0.1':
     resolution: {integrity: sha512-Fh0E2SOF+S+P1+CsgKyiBInAt3o2b6Qk7YOp2W0Qx2XnfTdfMuSDKUEcnrtpxCzgKJnqXeLUZYqtThaP0VGqtA==}
     engines: {node: '>=18.0.0'}
@@ -1073,6 +1077,10 @@ packages:
     resolution: {integrity: sha512-NiboZnrsrZY+Cy5hQNbYi+nVNssXVi2I+yL4CIKNIanOhH8kpC5PKQ2jx/MQpwVr21a3XcVoQBArlpRF36OeEQ==}
     engines: {node: '>=18.0.0'}
 
+  '@smithy/smithy-client@4.1.1':
+    resolution: {integrity: sha512-nxsNWCDmWR6LrnC55+fKhbuA1S9v/gNh+5BSiYEQ5X8OYCRZj3G8DBoLoWNc5oXd7LOXvoPEXRnsRph4at8Ttw==}
+    engines: {node: '>=18.0.0'}
+
   '@smithy/types@4.1.0':
     resolution: {integrity: sha512-enhjdwp4D7CXmwLtD6zbcDMbo6/T6WtuuKCY49Xxc6OMOmUWlBEBDREsxxgV2LIdeQPW756+f97GzcgAwp3iLw==}
     engines: {node: '>=18.0.0'}
@@ -1109,8 +1117,16 @@ packages:
     resolution: {integrity: sha512-nkQifWzWUHw/D0aLPgyKut+QnJ5X+5E8wBvGfvrYLLZ86xPfVO6MoqfQo/9s4bF3Xscefua1M6KLZtobHMWrBg==}
     engines: {node: '>=18.0.0'}
 
+  '@smithy/util-defaults-mode-browser@4.0.2':
+    resolution: {integrity: sha512-A7mlrRyOMxujL8M5rpCGR0vNdJoN1xP87cXQx+rmMTK0LBDlFg0arRQSqtbckNRNEqfjFx3Dna27tmDNUbAgGQ==}
+    engines: {node: '>=18.0.0'}
+
   '@smithy/util-defaults-mode-node@4.0.1':
     resolution: {integrity: sha512-LeAx2faB83litC9vaOdwFaldtto2gczUHxfFf8yoRwDU3cwL4/pDm7i0hxsuBCRk5mzHsrVGw+3EVCj32UZMdw==}
+    engines: {node: '>=18.0.0'}
+
+  '@smithy/util-defaults-mode-node@4.0.2':
+    resolution: {integrity: sha512-iyv3X7zfatV/6Oh1HNCqscTrRGUJUEDLOVv6fmGL7vjgUvEQ1xgKBbuIG8UP0dDbcYk0f96kjn9jbc0IdCmLyw==}
     engines: {node: '>=18.0.0'}
 
   '@smithy/util-endpoints@3.0.1':
@@ -1453,8 +1469,8 @@ packages:
     resolution: {integrity: sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==}
     engines: {node: '>= 0.4'}
 
-  es-object-atoms@1.0.0:
-    resolution: {integrity: sha512-MZ4iQ6JwHOBQjahnjwaC1ZtIBH+2ohjamzAO3oaHcXYup7qxjF2fixyH+Q71voWHeOkI2q/TnJao/KfXYIZWbw==}
+  es-object-atoms@1.1.0:
+    resolution: {integrity: sha512-Ujz8Al/KfOVR7fkaghAB1WvnLsdYxHDWmfoi2vlA2jZWRg31XhIC1a4B+/I24muD8iSbHxJ1JkrfqmWb65P/Mw==}
     engines: {node: '>= 0.4'}
 
   esbuild@0.17.19:
@@ -1628,9 +1644,6 @@ packages:
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
 
-  invariant@2.2.4:
-    resolution: {integrity: sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==}
-
   ipaddr.js@1.9.1:
     resolution: {integrity: sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==}
     engines: {node: '>= 0.10'}
@@ -1679,16 +1692,9 @@ packages:
     resolution: {integrity: sha512-bZsjR/iRjl1Nk1UkjGpAzLNfQtzuijhn2g+pbZb98HQ1Gk8vM9hfbxeMBP+M2/UUdwj0RqGG3mlvk2MsAqwvEw==}
     engines: {node: 20 || >=22}
 
-  js-tokens@4.0.0:
-    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
-
   klona@2.0.6:
     resolution: {integrity: sha512-dhG34DXATL5hSxJbIexCft8FChFXtmskoZYnoPWjXQuebWYCNkVeV3KkGegCK9CP1oswI/vQibS2GY7Em/sJJA==}
     engines: {node: '>= 8'}
-
-  loose-envify@1.4.0:
-    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
-    hasBin: true
 
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
@@ -1819,8 +1825,8 @@ packages:
     resolution: {integrity: sha512-8Ofs/AUQh8MaEcrlq5xOX0CQ9ypTF5dl78mjlMNfOK08fzpgTHQRQPBxcPlEtIw0yRpws+Zo/3r+5WRby7u3Gg==}
     engines: {node: '>= 0.6'}
 
-  next@15.1.3:
-    resolution: {integrity: sha512-5igmb8N8AEhWDYzogcJvtcRDU6n4cMGtBklxKD4biYv4LXN8+awc/bbQ2IM2NQHdVPgJ6XumYXfo3hBtErg1DA==}
+  next@15.1.4:
+    resolution: {integrity: sha512-mTaq9dwaSuwwOrcu3ebjDYObekkxRnXpuVL21zotM8qE2W0HBOdVIdg2Li9QjMEZrj73LN96LcWcz62V19FjAg==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
     hasBin: true
     peerDependencies:
@@ -1922,8 +1928,8 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  pkg-types@1.3.0:
-    resolution: {integrity: sha512-kS7yWjVFCkIw9hqdJBoMxDdzEngmkr5FXeWZZfQ6GoYacjVnsW6l2CcYW/0ThD0vF4LPJgVYnrg4d0uuhwYQbg==}
+  pkg-types@1.3.1:
+    resolution: {integrity: sha512-/Jm5M4RvtBFVkKWRu2BLUTNP8/M2a+UwuAX+ae4770q1qVGtfjG+WTCupoZixokjmHiry8uI+dlY8KXYV5HVVQ==}
 
   postcss-js@4.0.1:
     resolution: {integrity: sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==}
@@ -1997,38 +2003,38 @@ packages:
     peerDependencies:
       react: ^19.0.0
 
-  react-number-format@5.4.2:
-    resolution: {integrity: sha512-cg//jVdS49PYDgmcYoBnMMHl4XNTMuV723ZnHD2aXYtWWWqbVF3hjQ8iB+UZEuXapLbeA8P8H+1o6ZB1lcw3vg==}
+  react-number-format@5.4.3:
+    resolution: {integrity: sha512-VCY5hFg/soBighAoGcdE+GagkJq0230qN6jcS5sp8wQX1qy1fYN/RX7/BXkrs0oyzzwqR8/+eSUrqXbGeywdUQ==}
     peerDependencies:
-      react: ^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
-      react-dom: ^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+      react: ^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  react-remove-scroll-bar@2.3.6:
-    resolution: {integrity: sha512-DtSYaao4mBmX+HDo5YWYdBWQwYIQQshUV/dVxFxK+KM26Wjwp1gZ6rv6OC3oujI6Bfu6Xyg3TwK533AQutsn/g==}
+  react-remove-scroll-bar@2.3.8:
+    resolution: {integrity: sha512-9r+yi9+mgU33AKcj6IbT9oRCO78WriSj6t/cF8DWBZJ9aOGPOTEDvdUDz1FwKim7QXWwmHqtdHnRJfhAxEG46Q==}
     engines: {node: '>=10'}
     peerDependencies:
-      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      '@types/react': '*'
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     peerDependenciesMeta:
       '@types/react':
         optional: true
 
-  react-remove-scroll@2.6.0:
-    resolution: {integrity: sha512-I2U4JVEsQenxDAKaVa3VZ/JeJZe0/2DxPWL8Tj8yLKctQJQiZM52pn/GWFpSp8dftjM3pSAHVJZscAnC/y+ySQ==}
+  react-remove-scroll@2.6.2:
+    resolution: {integrity: sha512-KmONPx5fnlXYJQqC62Q+lwIeAk64ws/cUw6omIumRzMRPqgnYqhSSti99nbj0Ry13bv7dF+BKn7NB+OqkdZGTw==}
     engines: {node: '>=10'}
     peerDependencies:
-      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      '@types/react': '*'
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
     peerDependenciesMeta:
       '@types/react':
         optional: true
 
-  react-style-singleton@2.2.1:
-    resolution: {integrity: sha512-ZWj0fHEMyWkHzKYUr2Bs/4zU6XLmq9HsgBURm7g5pAVfyn49DgUiNgY2d4lXRlYSiCif9YBGpQleewkcqddc7g==}
+  react-style-singleton@2.2.3:
+    resolution: {integrity: sha512-b6jSvxvVnyptAiLjbkWLE/lOnR4lfTtDAl+eUC7RZy+QQWc6wRzIV2CE6xBuMmDxc2qIihtDCZD5NPOFl7fRBQ==}
     engines: {node: '>=10'}
     peerDependencies:
-      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      '@types/react': '*'
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -2278,12 +2284,12 @@ packages:
   urlpattern-polyfill@10.0.0:
     resolution: {integrity: sha512-H/A06tKD7sS1O1X2SshBVeA5FLycRpjqiBeqGKmBwBDBy28EnRjORxTNe269KSSr5un5qyWi1iL61wLxpd+ZOg==}
 
-  use-callback-ref@1.3.2:
-    resolution: {integrity: sha512-elOQwe6Q8gqZgDA8mrh44qRTQqpIHDcZ3hXTLjBe1i4ph8XpNJnO+aQf3NaG+lriLopI4HMx9VjQLfPQ6vhnoA==}
+  use-callback-ref@1.3.3:
+    resolution: {integrity: sha512-jQL3lRnocaFtu3V00JToYz/4QkNWswxijDaCVNZRiRTO3HQDLsdu1ZtmIUvV4yPp+rvWm5j0y0TG/S61cuijTg==}
     engines: {node: '>=10'}
     peerDependencies:
-      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      '@types/react': '*'
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
     peerDependenciesMeta:
       '@types/react':
         optional: true
@@ -2328,8 +2334,8 @@ packages:
     resolution: {integrity: sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==}
     engines: {node: '>= 0.4.0'}
 
-  uuid@11.0.4:
-    resolution: {integrity: sha512-IzL6VtTTYcAhA/oghbFJ1Dkmqev+FpQWnCBaKq/gUluLxliWvO8DPFWfIviRmYbtaavtSQe4WBL++rFjdcGWEg==}
+  uuid@11.0.5:
+    resolution: {integrity: sha512-508e6IcKLrhxKdBbcA2b4KQZlLVp2+J5UwQ6F7Drckkc5N9ZJwFa4TgWtsww9UG8fGHbm6gbV19TdM5pQ4GaIA==}
     hasBin: true
 
   uuid@9.0.1:
@@ -2471,20 +2477,20 @@ snapshots:
       '@smithy/invalid-dependency': 4.0.1
       '@smithy/middleware-content-length': 4.0.1
       '@smithy/middleware-endpoint': 4.0.1
-      '@smithy/middleware-retry': 4.0.1
+      '@smithy/middleware-retry': 4.0.2
       '@smithy/middleware-serde': 4.0.1
       '@smithy/middleware-stack': 4.0.1
       '@smithy/node-config-provider': 4.0.1
       '@smithy/node-http-handler': 4.0.1
       '@smithy/protocol-http': 5.0.1
-      '@smithy/smithy-client': 4.1.0
+      '@smithy/smithy-client': 4.1.1
       '@smithy/types': 4.1.0
       '@smithy/url-parser': 4.0.1
       '@smithy/util-base64': 4.0.0
       '@smithy/util-body-length-browser': 4.0.0
       '@smithy/util-body-length-node': 4.0.0
-      '@smithy/util-defaults-mode-browser': 4.0.1
-      '@smithy/util-defaults-mode-node': 4.0.1
+      '@smithy/util-defaults-mode-browser': 4.0.2
+      '@smithy/util-defaults-mode-node': 4.0.2
       '@smithy/util-endpoints': 3.0.1
       '@smithy/util-middleware': 4.0.1
       '@smithy/util-retry': 4.0.1
@@ -2523,20 +2529,20 @@ snapshots:
       '@smithy/invalid-dependency': 4.0.1
       '@smithy/middleware-content-length': 4.0.1
       '@smithy/middleware-endpoint': 4.0.1
-      '@smithy/middleware-retry': 4.0.1
+      '@smithy/middleware-retry': 4.0.2
       '@smithy/middleware-serde': 4.0.1
       '@smithy/middleware-stack': 4.0.1
       '@smithy/node-config-provider': 4.0.1
       '@smithy/node-http-handler': 4.0.1
       '@smithy/protocol-http': 5.0.1
-      '@smithy/smithy-client': 4.1.0
+      '@smithy/smithy-client': 4.1.1
       '@smithy/types': 4.1.0
       '@smithy/url-parser': 4.0.1
       '@smithy/util-base64': 4.0.0
       '@smithy/util-body-length-browser': 4.0.0
       '@smithy/util-body-length-node': 4.0.0
-      '@smithy/util-defaults-mode-browser': 4.0.1
-      '@smithy/util-defaults-mode-node': 4.0.1
+      '@smithy/util-defaults-mode-browser': 4.0.2
+      '@smithy/util-defaults-mode-node': 4.0.2
       '@smithy/util-endpoints': 3.0.1
       '@smithy/util-middleware': 4.0.1
       '@smithy/util-retry': 4.0.1
@@ -2636,20 +2642,20 @@ snapshots:
       '@smithy/md5-js': 4.0.1
       '@smithy/middleware-content-length': 4.0.1
       '@smithy/middleware-endpoint': 4.0.1
-      '@smithy/middleware-retry': 4.0.1
+      '@smithy/middleware-retry': 4.0.2
       '@smithy/middleware-serde': 4.0.1
       '@smithy/middleware-stack': 4.0.1
       '@smithy/node-config-provider': 4.0.1
       '@smithy/node-http-handler': 4.0.1
       '@smithy/protocol-http': 5.0.1
-      '@smithy/smithy-client': 4.1.0
+      '@smithy/smithy-client': 4.1.1
       '@smithy/types': 4.1.0
       '@smithy/url-parser': 4.0.1
       '@smithy/util-base64': 4.0.0
       '@smithy/util-body-length-browser': 4.0.0
       '@smithy/util-body-length-node': 4.0.0
-      '@smithy/util-defaults-mode-browser': 4.0.1
-      '@smithy/util-defaults-mode-node': 4.0.1
+      '@smithy/util-defaults-mode-browser': 4.0.2
+      '@smithy/util-defaults-mode-node': 4.0.2
       '@smithy/util-endpoints': 3.0.1
       '@smithy/util-middleware': 4.0.1
       '@smithy/util-retry': 4.0.1
@@ -2724,20 +2730,20 @@ snapshots:
       '@smithy/invalid-dependency': 4.0.1
       '@smithy/middleware-content-length': 4.0.1
       '@smithy/middleware-endpoint': 4.0.1
-      '@smithy/middleware-retry': 4.0.1
+      '@smithy/middleware-retry': 4.0.2
       '@smithy/middleware-serde': 4.0.1
       '@smithy/middleware-stack': 4.0.1
       '@smithy/node-config-provider': 4.0.1
       '@smithy/node-http-handler': 4.0.1
       '@smithy/protocol-http': 5.0.1
-      '@smithy/smithy-client': 4.1.0
+      '@smithy/smithy-client': 4.1.1
       '@smithy/types': 4.1.0
       '@smithy/url-parser': 4.0.1
       '@smithy/util-base64': 4.0.0
       '@smithy/util-body-length-browser': 4.0.0
       '@smithy/util-body-length-node': 4.0.0
-      '@smithy/util-defaults-mode-browser': 4.0.1
-      '@smithy/util-defaults-mode-node': 4.0.1
+      '@smithy/util-defaults-mode-browser': 4.0.2
+      '@smithy/util-defaults-mode-node': 4.0.2
       '@smithy/util-endpoints': 3.0.1
       '@smithy/util-middleware': 4.0.1
       '@smithy/util-retry': 4.0.1
@@ -2821,7 +2827,7 @@ snapshots:
       '@smithy/node-http-handler': 4.0.1
       '@smithy/property-provider': 4.0.1
       '@smithy/protocol-http': 5.0.1
-      '@smithy/smithy-client': 4.1.0
+      '@smithy/smithy-client': 4.1.1
       '@smithy/types': 4.1.0
       '@smithy/util-stream': 4.0.1
       tslib: 2.8.1
@@ -2989,7 +2995,7 @@ snapshots:
   '@aws-sdk/middleware-sdk-sqs@3.723.0':
     dependencies:
       '@aws-sdk/types': 3.723.0
-      '@smithy/smithy-client': 4.1.0
+      '@smithy/smithy-client': 4.1.1
       '@smithy/types': 4.1.0
       '@smithy/util-hex-encoding': 4.0.0
       '@smithy/util-utf8': 4.0.0
@@ -3453,63 +3459,63 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@mantine/code-highlight@7.15.2(@mantine/core@7.15.2(@mantine/hooks@7.15.2(react@19.0.0))(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@mantine/hooks@7.15.2(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@mantine/code-highlight@7.16.0(@mantine/core@7.16.0(@mantine/hooks@7.16.0(react@19.0.0))(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@mantine/hooks@7.16.0(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
-      '@mantine/core': 7.15.2(@mantine/hooks@7.15.2(react@19.0.0))(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@mantine/hooks': 7.15.2(react@19.0.0)
+      '@mantine/core': 7.16.0(@mantine/hooks@7.16.0(react@19.0.0))(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@mantine/hooks': 7.16.0(react@19.0.0)
       clsx: 2.1.1
       highlight.js: 11.10.0
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
 
-  '@mantine/core@7.15.2(@mantine/hooks@7.15.2(react@19.0.0))(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@mantine/core@7.16.0(@mantine/hooks@7.16.0(react@19.0.0))(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@floating-ui/react': 0.26.28(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@mantine/hooks': 7.15.2(react@19.0.0)
+      '@mantine/hooks': 7.16.0(react@19.0.0)
       clsx: 2.1.1
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
-      react-number-format: 5.4.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      react-remove-scroll: 2.6.0(@types/react@19.0.1)(react@19.0.0)
+      react-number-format: 5.4.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      react-remove-scroll: 2.6.2(@types/react@19.0.1)(react@19.0.0)
       react-textarea-autosize: 8.5.6(@types/react@19.0.1)(react@19.0.0)
       type-fest: 4.27.0
     transitivePeerDependencies:
       - '@types/react'
 
-  '@mantine/form@7.15.2(react@19.0.0)':
+  '@mantine/form@7.16.0(react@19.0.0)':
     dependencies:
       fast-deep-equal: 3.1.3
       klona: 2.0.6
       react: 19.0.0
 
-  '@mantine/hooks@7.15.2(react@19.0.0)':
+  '@mantine/hooks@7.16.0(react@19.0.0)':
     dependencies:
       react: 19.0.0
 
-  '@next/env@15.1.3': {}
+  '@next/env@15.1.4': {}
 
-  '@next/swc-darwin-arm64@15.1.3':
+  '@next/swc-darwin-arm64@15.1.4':
     optional: true
 
-  '@next/swc-darwin-x64@15.1.3':
+  '@next/swc-darwin-x64@15.1.4':
     optional: true
 
-  '@next/swc-linux-arm64-gnu@15.1.3':
+  '@next/swc-linux-arm64-gnu@15.1.4':
     optional: true
 
-  '@next/swc-linux-arm64-musl@15.1.3':
+  '@next/swc-linux-arm64-musl@15.1.4':
     optional: true
 
-  '@next/swc-linux-x64-gnu@15.1.3':
+  '@next/swc-linux-x64-gnu@15.1.4':
     optional: true
 
-  '@next/swc-linux-x64-musl@15.1.3':
+  '@next/swc-linux-x64-musl@15.1.4':
     optional: true
 
-  '@next/swc-win32-arm64-msvc@15.1.3':
+  '@next/swc-win32-arm64-msvc@15.1.4':
     optional: true
 
-  '@next/swc-win32-x64-msvc@15.1.3':
+  '@next/swc-win32-x64-msvc@15.1.4':
     optional: true
 
   '@noble/ciphers@1.1.3': {}
@@ -3729,6 +3735,18 @@ snapshots:
       tslib: 2.8.1
       uuid: 9.0.1
 
+  '@smithy/middleware-retry@4.0.2':
+    dependencies:
+      '@smithy/node-config-provider': 4.0.1
+      '@smithy/protocol-http': 5.0.1
+      '@smithy/service-error-classification': 4.0.1
+      '@smithy/smithy-client': 4.1.1
+      '@smithy/types': 4.1.0
+      '@smithy/util-middleware': 4.0.1
+      '@smithy/util-retry': 4.0.1
+      tslib: 2.8.1
+      uuid: 9.0.1
+
   '@smithy/middleware-serde@4.0.1':
     dependencies:
       '@smithy/types': 4.1.0
@@ -3805,6 +3823,16 @@ snapshots:
       '@smithy/util-stream': 4.0.1
       tslib: 2.8.1
 
+  '@smithy/smithy-client@4.1.1':
+    dependencies:
+      '@smithy/core': 3.1.0
+      '@smithy/middleware-endpoint': 4.0.1
+      '@smithy/middleware-stack': 4.0.1
+      '@smithy/protocol-http': 5.0.1
+      '@smithy/types': 4.1.0
+      '@smithy/util-stream': 4.0.1
+      tslib: 2.8.1
+
   '@smithy/types@4.1.0':
     dependencies:
       tslib: 2.8.1
@@ -3851,6 +3879,14 @@ snapshots:
       bowser: 2.11.0
       tslib: 2.8.1
 
+  '@smithy/util-defaults-mode-browser@4.0.2':
+    dependencies:
+      '@smithy/property-provider': 4.0.1
+      '@smithy/smithy-client': 4.1.1
+      '@smithy/types': 4.1.0
+      bowser: 2.11.0
+      tslib: 2.8.1
+
   '@smithy/util-defaults-mode-node@4.0.1':
     dependencies:
       '@smithy/config-resolver': 4.0.1
@@ -3858,6 +3894,16 @@ snapshots:
       '@smithy/node-config-provider': 4.0.1
       '@smithy/property-provider': 4.0.1
       '@smithy/smithy-client': 4.1.0
+      '@smithy/types': 4.1.0
+      tslib: 2.8.1
+
+  '@smithy/util-defaults-mode-node@4.0.2':
+    dependencies:
+      '@smithy/config-resolver': 4.0.1
+      '@smithy/credential-provider-imds': 4.0.1
+      '@smithy/node-config-provider': 4.0.1
+      '@smithy/property-provider': 4.0.1
+      '@smithy/smithy-client': 4.1.1
       '@smithy/types': 4.1.0
       tslib: 2.8.1
 
@@ -4169,7 +4215,7 @@ snapshots:
 
   es-errors@1.3.0: {}
 
-  es-object-atoms@1.0.0:
+  es-object-atoms@1.1.0:
     dependencies:
       es-errors: 1.3.0
 
@@ -4343,7 +4389,7 @@ snapshots:
       call-bind-apply-helpers: 1.0.1
       es-define-property: 1.0.1
       es-errors: 1.3.0
-      es-object-atoms: 1.0.0
+      es-object-atoms: 1.1.0
       function-bind: 1.1.2
       get-proto: 1.0.1
       gopd: 1.2.0
@@ -4356,7 +4402,7 @@ snapshots:
   get-proto@1.0.1:
     dependencies:
       dunder-proto: 1.0.1
-      es-object-atoms: 1.0.0
+      es-object-atoms: 1.1.0
 
   get-source@2.0.12:
     dependencies:
@@ -4423,10 +4469,6 @@ snapshots:
 
   inherits@2.0.4: {}
 
-  invariant@2.2.4:
-    dependencies:
-      loose-envify: 1.4.0
-
   ipaddr.js@1.9.1: {}
 
   is-arrayish@0.3.2:
@@ -4460,13 +4502,7 @@ snapshots:
     dependencies:
       '@isaacs/cliui': 8.0.2
 
-  js-tokens@4.0.0: {}
-
   klona@2.0.6: {}
-
-  loose-envify@1.4.0:
-    dependencies:
-      js-tokens: 4.0.0
 
   lru-cache@10.4.3: {}
 
@@ -4554,7 +4590,7 @@ snapshots:
     dependencies:
       acorn: 8.14.0
       pathe: 2.0.1
-      pkg-types: 1.3.0
+      pkg-types: 1.3.1
       ufo: 1.5.4
 
   mnemonist@0.38.3:
@@ -4573,9 +4609,9 @@ snapshots:
 
   negotiator@1.0.0: {}
 
-  next@15.1.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  next@15.1.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
-      '@next/env': 15.1.3
+      '@next/env': 15.1.4
       '@swc/counter': 0.1.3
       '@swc/helpers': 0.5.15
       busboy: 1.6.0
@@ -4585,14 +4621,14 @@ snapshots:
       react-dom: 19.0.0(react@19.0.0)
       styled-jsx: 5.1.6(react@19.0.0)
     optionalDependencies:
-      '@next/swc-darwin-arm64': 15.1.3
-      '@next/swc-darwin-x64': 15.1.3
-      '@next/swc-linux-arm64-gnu': 15.1.3
-      '@next/swc-linux-arm64-musl': 15.1.3
-      '@next/swc-linux-x64-gnu': 15.1.3
-      '@next/swc-linux-x64-musl': 15.1.3
-      '@next/swc-win32-arm64-msvc': 15.1.3
-      '@next/swc-win32-x64-msvc': 15.1.3
+      '@next/swc-darwin-arm64': 15.1.4
+      '@next/swc-darwin-x64': 15.1.4
+      '@next/swc-linux-arm64-gnu': 15.1.4
+      '@next/swc-linux-arm64-musl': 15.1.4
+      '@next/swc-linux-x64-gnu': 15.1.4
+      '@next/swc-linux-x64-musl': 15.1.4
+      '@next/swc-win32-arm64-msvc': 15.1.4
+      '@next/swc-win32-x64-msvc': 15.1.4
       sharp: 0.33.5
     transitivePeerDependencies:
       - '@babel/core'
@@ -4658,11 +4694,11 @@ snapshots:
 
   picomatch@4.0.2: {}
 
-  pkg-types@1.3.0:
+  pkg-types@1.3.1:
     dependencies:
       confbox: 0.1.8
       mlly: 1.7.4
-      pathe: 1.1.2
+      pathe: 2.0.1
 
   postcss-js@4.0.1(postcss@8.4.49):
     dependencies:
@@ -4738,34 +4774,33 @@ snapshots:
       react: 19.0.0
       scheduler: 0.25.0
 
-  react-number-format@5.4.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  react-number-format@5.4.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
 
-  react-remove-scroll-bar@2.3.6(@types/react@19.0.1)(react@19.0.0):
+  react-remove-scroll-bar@2.3.8(@types/react@19.0.1)(react@19.0.0):
     dependencies:
       react: 19.0.0
-      react-style-singleton: 2.2.1(@types/react@19.0.1)(react@19.0.0)
+      react-style-singleton: 2.2.3(@types/react@19.0.1)(react@19.0.0)
       tslib: 2.8.1
     optionalDependencies:
       '@types/react': 19.0.1
 
-  react-remove-scroll@2.6.0(@types/react@19.0.1)(react@19.0.0):
+  react-remove-scroll@2.6.2(@types/react@19.0.1)(react@19.0.0):
     dependencies:
       react: 19.0.0
-      react-remove-scroll-bar: 2.3.6(@types/react@19.0.1)(react@19.0.0)
-      react-style-singleton: 2.2.1(@types/react@19.0.1)(react@19.0.0)
+      react-remove-scroll-bar: 2.3.8(@types/react@19.0.1)(react@19.0.0)
+      react-style-singleton: 2.2.3(@types/react@19.0.1)(react@19.0.0)
       tslib: 2.8.1
-      use-callback-ref: 1.3.2(@types/react@19.0.1)(react@19.0.0)
+      use-callback-ref: 1.3.3(@types/react@19.0.1)(react@19.0.0)
       use-sidecar: 1.1.2(@types/react@19.0.1)(react@19.0.0)
     optionalDependencies:
       '@types/react': 19.0.1
 
-  react-style-singleton@2.2.1(@types/react@19.0.1)(react@19.0.0):
+  react-style-singleton@2.2.3(@types/react@19.0.1)(react@19.0.0):
     dependencies:
       get-nonce: 1.0.1
-      invariant: 2.2.4
       react: 19.0.0
       tslib: 2.8.1
     optionalDependencies:
@@ -5048,7 +5083,7 @@ snapshots:
 
   urlpattern-polyfill@10.0.0: {}
 
-  use-callback-ref@1.3.2(@types/react@19.0.1)(react@19.0.0):
+  use-callback-ref@1.3.3(@types/react@19.0.1)(react@19.0.0):
     dependencies:
       react: 19.0.0
       tslib: 2.8.1
@@ -5084,7 +5119,7 @@ snapshots:
 
   utils-merge@1.0.1: {}
 
-  uuid@11.0.4: {}
+  uuid@11.0.5: {}
 
   uuid@9.0.1: {}
 
