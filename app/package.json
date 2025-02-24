@@ -22,15 +22,15 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250214.0",
-    "@opennextjs/cloudflare": "^0.5.1",
+    "@opennextjs/cloudflare": "^0.5.3",
     "@tabler/icons-react": "^3.30.0",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "postcss": "^8.5.2",
+    "postcss": "^8.5.3",
     "postcss-preset-mantine": "^1.17.0",
     "postcss-simple-vars": "^7.0.1",
     "typescript": "^5",
-    "wrangler": "^3.109.1"
+    "wrangler": "^3.109.3"
   }
 }
