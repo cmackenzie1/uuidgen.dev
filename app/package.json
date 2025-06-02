@@ -21,8 +21,8 @@
     "uuid": "^11.1.0"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250430.0",
-    "@opennextjs/cloudflare": "^0.6.6",
+    "@cloudflare/workers-types": "^4.20250601.0",
+    "@opennextjs/cloudflare": "^1.1.0",
     "@tabler/icons-react": "^3.31.0",
     "@types/node": "^22",
     "@types/react": "^19",
