@@ -2,35 +2,39 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts",
-    "build:worker": "cloudflare",
-    "dev": "next dev",
-    "dev:worker": "wrangler dev --port 8771",
-    "preview:worker": "npm run build:worker && npm run dev:worker",
-    "deploy:worker": "npm run build:worker && wrangler deploy"
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "pnpm run build && wrangler deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv env.d.ts"
   },
   "dependencies": {
     "@mantine/code-highlight": "^7.17.7",
     "@mantine/core": "^7.17.7",
     "@mantine/form": "^7.17.7",
     "@mantine/hooks": "^7.17.7",
-    "next": "15.3.1",
+    "@tanstack/react-router": "^1.170.46",
+    "@tanstack/react-start": "^1.169.7",
     "react": "^19",
     "react-dom": "^19",
     "uuid": "^14.0.3"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.70.1",
     "@cloudflare/workers-types": "^4.20250430.0",
-    "@opennextjs/cloudflare": "^0.6.6",
     "@tabler/icons-react": "^3.31.0",
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6.3.0",
     "postcss": "^8.5.3",
     "postcss-preset-mantine": "^1.17.0",
     "postcss-simple-vars": "^7.0.1",
     "typescript": "^5",
+    "vite": "^8.3.8",
+    "vite-tsconfig-paths": "^6.1.1",
     "wrangler": "^4.14.0"
   }
 }

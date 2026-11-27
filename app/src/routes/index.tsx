@@ -1,9 +1,14 @@
 import { Box, Container, List, ListItem, Space, Stack, Text, Title } from '@mantine/core';
+import { createFileRoute } from '@tanstack/react-router';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import UuidGenerator from '@/components/UuidGenerator';
 
-export default function Home() {
+export const Route = createFileRoute('/')({
+  component: Home,
+});
+
+function Home() {
   return (
     <Box>
       <Header />
