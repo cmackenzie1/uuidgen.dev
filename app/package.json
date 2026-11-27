@@ -25,7 +25,7 @@
     "@cloudflare/vite-plugin": "^1.70.1",
     "@cloudflare/workers-types": "^4.20250430.0",
     "@tabler/icons-react": "^3.31.0",
-    "@types/node": "^24",
+    "@types/node": "^26",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^6.3.0",
