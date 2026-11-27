@@ -2,7 +2,10 @@
   "name": "uuidgen-dev",
   "private": true,
   "version": "1.0.0",
-  "workspaces": ["pages", "workers"],
+  "workspaces": [
+    "pages",
+    "workers"
+  ],
   "scripts": {
     "pages:start": "cd pages && npm start",
     "format": "pnpm biome format --write .",
@@ -10,6 +13,6 @@
     "check": "pnpm biome check --write ."
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4"
+    "@biomejs/biome": "2.6.9"
   }
 }
