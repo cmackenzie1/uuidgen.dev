@@ -1,5 +1,3 @@
-'use client';
-
 import { CodeHighlight } from '@mantine/code-highlight';
 import { Button, Center, Fieldset, Group, NativeSelect, NumberInput, ScrollArea, Stack, Text } from '@mantine/core';
 import { useForm } from '@mantine/form';

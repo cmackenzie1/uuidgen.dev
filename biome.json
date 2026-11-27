@@ -1,6 +1,8 @@
 {
   "$schema": "https://biomejs.dev/schemas/2.6.9/schema.json",
-  "files": { "includes": ["**", "!**/node_modules", "!**/.wrangler", "!**/dist", "!**/.next", "!**/.worker-next"] },
+  "files": {
+    "includes": ["**", "!**/node_modules", "!**/.wrangler", "!**/dist", "!**/routeTree.gen.ts"]
+  },
   "formatter": {
     "enabled": true,
     "useEditorconfig": true,

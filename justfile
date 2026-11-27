@@ -10,4 +10,7 @@ lint:
     pnpm biome lint --write .
 
 build:
-    pnpm --filter app build:worker
+    pnpm --filter app build
+
+deploy:
+    pnpm --filter app deploy
